@@ -16,10 +16,10 @@ function testEndpoint(testData, callback) {
   const options = {
     hostname: 'localhost',
     port: 3000,
-    path: '/sort-string',
+    path: '/api/sort-string',
     method: 'POST',
     headers: {
-      'Content-Type': 'application/json',
+      'Content-Type': 'vercel/json',
       'Content-Length': Buffer.byteLength(postData)
     }
   };
