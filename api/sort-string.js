@@ -1,6 +1,5 @@
 const express = require('express');
 const app = express();
-const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
 
@@ -25,7 +24,5 @@ app.post('/', (req, res) => {
   }
 
 });
-
-app.listen(PORT, () => console.log(`Server on running on ${PORT}`));
 
 module.exports = app;
