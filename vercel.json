@@ -1,1 +1,15 @@
-{ "version": 2, "rewrites": [{ "source": "/sort-string", "destination": "/api" }] }
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "api/sort-string.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "rewrites": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/sort-string.js"
+    }
+  ]
+}

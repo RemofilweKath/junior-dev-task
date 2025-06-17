@@ -14,7 +14,7 @@ app.post('/api/sort-string', (req, res) => {
     }
 
     // Split the string into an array of characters
-    const charArray = dataStr.split('');
+    const charArray = data.split('');
 
     const sortedArray = charArray.sort();
     res.json({ word: sortedArray });
@@ -28,3 +28,5 @@ app.post('/api/sort-string', (req, res) => {
 
 app.listen(PORT, () => console.log(`Server on running on http://localhost:${PORT}`),
 console.log(`Server on running on ${PORT}`));
+
+module.exports = app;
