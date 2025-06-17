@@ -8,8 +8,8 @@
   ],
   "rewrites": [
     {
-      "src": "/api/(.*)",
-      "dest": "/api/sort-string.js"
+      "source": "/api/(.*)",
+      "destination": "/api/sort-string.js"
     }
   ]
 }

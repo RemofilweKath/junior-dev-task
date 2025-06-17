@@ -1,9 +1,17 @@
 {
   "name": "sort-string-api",
   "version": "1.0.0",
-  "main": "api/sort-string.js",
+  "main": "sort-string.js",
   "scripts": {
     "start": "node api/sort-string.js",
     "dev": "vercel dev"
-  }
+  },
+  "keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@vercel/postgres": "^0.7.2",
+		"dotenv": "^16.4.1",
+		"express": "^4.18.2"
+	}
 }

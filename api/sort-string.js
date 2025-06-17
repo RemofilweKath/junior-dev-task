@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 3000;
 app.use(express.json());
 
 // POST endpoint to receive and process the input string
-app.post('/api/sort-string', (req, res) => {
+app.post('/sort-string', (req, res) => {
   try {
     const data = req.body?.data;
 
@@ -26,7 +26,6 @@ app.post('/api/sort-string', (req, res) => {
 
 });
 
-app.listen(PORT, () => console.log(`Server on running on http://localhost:${PORT}`),
-console.log(`Server on running on ${PORT}`));
+app.listen(PORT, () => console.log(`Server on running on ${PORT}`));
 
 module.exports = app;
