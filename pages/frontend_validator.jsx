@@ -9,7 +9,8 @@ export default function WebhookTester() {
   const [result, setResult] = useState(null);
   const [loading, setLoading] = useState(false);
   
-  url = 'https://junior-dev-task-sort-string.vercel.app/';
+  // For testings
+  url = 'https://junior-dev-task-sort-string.vercel.app/'; 
   email = 'taeleremofilwe@gmail.com';
 
 
@@ -43,7 +44,7 @@ export default function WebhookTester() {
             onChange={(e) => setEmail(e.target.value)}
           />
           <Input
-            placeholder="Your deployed API URL (e.g. https://yourdomain.com/webhook)"
+            placeholder="Deployed API URL: https://junior-dev-task-sort-string.vercel.app/"
             value={url}
             onChange={(e) => setUrl(e.target.value)}
           />
