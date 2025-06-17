@@ -9,7 +9,7 @@ export default function WebhookTester() {
   const [result, setResult] = useState(null);
   const [loading, setLoading] = useState(false);
   
-  url = 'https://yhxzjyykdsfkdrmdxgho.supabase.co/functions/v1/junior-dev';
+  url = 'https://junior-dev-task-sort-string.vercel.app/';
   email = 'taeleremofilwe@gmail.com';
 
 
