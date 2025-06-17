@@ -1,11 +1,5 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "api/sort-string.js",
-      "use": "@vercel/node"
-    }
-  ],
   "rewrites": [
     {
       "src": "/(.*)",
