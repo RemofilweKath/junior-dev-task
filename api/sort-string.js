@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 3000;
 app.use(express.json());
 
 // POST endpoint to receive and process the input string
-app.post('/sort-string', (req, res) => {
+app.post('/', (req, res) => {
   try {
     const data = req.body?.data;
 
