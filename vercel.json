@@ -9,7 +9,7 @@
   "rewrites": [
     {
       "src": "/api/(.*)",
-      "dest": "/sort-string.js"
+      "dest": "/api/sort-string.js"
     }
   ]
 }

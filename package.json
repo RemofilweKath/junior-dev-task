@@ -1,0 +1,9 @@
+{
+  "name": "sort-string-api",
+  "version": "1.0.0",
+  "main": "api/sort-string.js",
+  "scripts": {
+    "start": "node api/sort-string.js",
+    "dev": "vercel dev"
+  }
+}
